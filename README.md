@@ -1,4 +1,4 @@
-# ecmascript experiments [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# ecmascript experiments
 
 > Simple example of ES6
 
