@@ -3,10 +3,9 @@
 > Simple example of ES6
 
 ## Usage
-
-
-
-
+```sh
+$ es6 -f class
+```
 
 ## Run Test
 ```sh
