@@ -1,42 +1,24 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# ecmascript experiments [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-> ECMAScript 6 experiments
-
-
-## Install
-
-```sh
-$ npm install --save ecmascript-six-experiment
-```
-
+> Simple example of ES6
 
 ## Usage
 
-```js
-var ecmascript-six-experiment = require('ecmascript-six-experiment');
 
-ecmascript-six-experiment('Rainbow');
-```
 
+
+
+## Run Test
 ```sh
-$ npm install --global ecmascript-six-experiment
-$ ecmascript-six-experiment --help
+npm test
 ```
 
-```sh
-# creates a browser.js
-$ npm run browser
-```
-
+## Contribute or Report Issue
+For bugs and feature requests, [please create an issue][issue-url].
 
 ## License
 
-MIT © [Yashprit Singh](www.twitter.com/yashprit)
+MIT © [Yashprit](yashprit.github.io)
 
+[issue-url]: https://github.com/yashprit/git-first-commit/issues
 
-[npm-url]: https://npmjs.org/package/ecmascript-six-experiment
-[npm-image]: https://badge.fury.io/js/ecmascript-six-experiment.svg
-[travis-url]: https://travis-ci.org/yashprit/ecmascript-six-experiment
-[travis-image]: https://travis-ci.org/yashprit/ecmascript-six-experiment.svg?branch=master
-[daviddm-url]: https://david-dm.org/yashprit/ecmascript-six-experiment.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/yashprit/ecmascript-six-experiment

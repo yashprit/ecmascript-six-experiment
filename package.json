@@ -2,7 +2,6 @@
   "name": "ecmascript-six-experiment",
   "version": "0.0.0",
   "description": "ECMAScript 6 experiments",
-
   "author": {
     "name": "Yashprit Singh",
     "email": "yashprit@gmail.com",
@@ -20,27 +19,16 @@
     "javascript",
     "cli",
     "node",
-    "browser"
+    "iojs"
   ],
   "dependencies": {
+    "chalk": "^1.0.0",
     "meow": "^2.0.0"
   },
-  "devDependencies": {
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^1.0.0",
-    "time-grunt": "^1.0.0",
-    "grunt-mocha-cli": "^1.11.0",
-    "jshint-stylish": "^1.0.0",
-    "browserify": "^7.0.0"
-  },
   "scripts": {
-    "test": "grunt",
-    "browser": "browserify index.js > browser.js"
+    "test": "iojs --harmony index.js"
   },
   "bin": {
-    "ecmascript-six-experiment": "cli.js"
+    "es6": "cli.js"
   }
 }
