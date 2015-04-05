@@ -6,7 +6,11 @@
 	console.log(obj)
 	let {first:'Balram', last: 'Singh'} = obj;
 	console.log(obj);
+
+  let x = 20;
+  console.log(x);
 	
+  /*
 	//in array
 	let [x,y] = ["a", "b"];
 	console.log(x, y);
@@ -18,14 +22,14 @@
 	
 	// Variable declarations:
 	let [x] = ['a'];
-    
+
 	// Assignments:
 	[x] = ['a'];
-    
+
 	// Parameter definitions:
 	function f([x]) { 
 		console.log([x]) 
 	}
-	f(['a']);
+	f(['a']);*/
 	
 })()
