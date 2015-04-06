@@ -2,15 +2,16 @@
 
 > Simple example of ES6
 
+*Tested on iojs `iojs-v1.6.3`*
+
 ## Usage
 ```sh
-$ es6 -f class
+$ es6 -f <name-of-feature> #run feature
+$ es6 --help
+$ npm test #run all features
 ```
 
-## Run Test
-```sh
-npm test
-```
+
 
 ## Contribute or Report Issue
 For bugs and feature requests, [please create an issue][issue-url].
