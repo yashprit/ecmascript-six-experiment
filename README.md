@@ -11,6 +11,8 @@ $ es6 --help
 $ npm test #run all features
 ```
 
+![ScreenShot](https://raw.github.com/yashprit/ecmascript-six-experiment/master/screenshot.png)
+
 
 
 ## Contribute or Report Issue
