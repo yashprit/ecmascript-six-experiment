@@ -24,7 +24,7 @@ For bugs and feature requests, [please create an issue][issue-url].
 
 ## License
 
-MIT © [Yashprit](yashprit.github.io)
+MIT © [Yashprit Singh](yashprit.github.io)
 
 [issue-url]: https://github.com/yashprit/git-first-commit/issues
 
