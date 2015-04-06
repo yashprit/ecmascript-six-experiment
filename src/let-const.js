@@ -18,10 +18,13 @@ function letFun(){
   let functionScope = 30;
   let out = "";
   log(output('function level scope %s'), functionScope); //30
+
   for(let i = 0; i < 10; i++){
     out += (i + " "); //i is block level scope, should undefined outside this block
   }
   log(output('for loop output is %s'), out);
+
+  //try or catch, to avoid interrupting script
   try{
      log(i); //undefined
   } catch(e){
@@ -36,6 +39,8 @@ function constFun(){
   const arr = [10,20];
   arr.push(30); //no error
   log(output('Should out array with normal execution %s'), arr);
+
+  //try or catch, to avoid interrupting script
   try{
    arr = 20; //this is error
   } catch(e){
