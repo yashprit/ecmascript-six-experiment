@@ -8,10 +8,14 @@
 ```sh
 $ es6 -f <name-of-feature> #run feature
 $ es6 --help
-$ npm test #run all features
+$ npm run read #run all features
 ```
 
 ![ScreenShot](https://raw.github.com/yashprit/ecmascript-six-experiment/master/screenshot.png)
+
+## Need of this repository
+
+Learning through example is a better than just reading article, this repository contains example of various es6 features and along with nice explaination all in console using beautiful colors
 
 
 
